@@ -13,4 +13,4 @@ To run this code you need:
 
 Preview
 --------
-![gentaic algorithm](https://user-images.githubusercontent.com/60931606/132248265-a67485ec-12fb-4bca-9f0a-9dc84730919e.gif)
+![genatic algorithm](https://user-images.githubusercontent.com/60931606/132249454-271b0397-6a55-49aa-977b-1abd46d79563.gif)
