@@ -1,6 +1,6 @@
 import random
 class Brain():
-    mutation_rate = 0.01
+    mutation_rate = 0.05
     def __init__(self, directions_number):
         self.steps = 0
         self.directions = []

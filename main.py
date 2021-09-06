@@ -1,4 +1,4 @@
-import pygame, os, sys, dot, population, time
+import pygame, os, sys, dot, population
 
 #*load pygame screen
 width, height = (800,600)
@@ -12,7 +12,7 @@ target_position = (400, 20)
 target = dot.Dot(target_position, screen, target_position, pygame.Color("red"))
 target.Kill()
 #* Create the dots population
-dots = population.Population(1000, (400, 550), screen, target_position)
+dots = population.Population(500, (400, 550), screen, target_position)
 #* update the app (called every frame)
 font = pygame.font.SysFont("arial", 20)
 def Update():
@@ -36,4 +36,3 @@ while True:
 		    sys.exit()
     Update()
     pygame.display.flip()
-    #// time.sleep(0.001)

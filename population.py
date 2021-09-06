@@ -34,7 +34,7 @@ class Population():
                 dot.Kill()
                 continue
             dot.Move()
-    
+
     def AllDotsDead(self):
         """
             Returns True if all population dots are dead and False if not
